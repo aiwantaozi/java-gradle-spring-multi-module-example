@@ -29,7 +29,7 @@ subprojects { // subprojects는 settings.gradle에 include된 프로젝트 전�
 
     dependencies {
         implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.6.3'
-        testCompile 'org.junit.jupiter:junit-jupiter-api'
+        implementation 'org.junit.jupiter:junit-jupiter-api'
 
         compileOnly 'org.projectlombok:lombok'
         developmentOnly 'org.springframework.boot:spring-boot-devtools'

@@ -1,7 +1,7 @@
 dependencies {
-    compile 'mysql:mysql-connector-java'
-    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
-    runtime 'com.h2database:h2'
+    compileOnly 'mysql:mysql-connector-java'
+    compileOnly 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'
 }
 
 bootJar { enabled = false }
